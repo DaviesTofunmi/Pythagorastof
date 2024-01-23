@@ -45,7 +45,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: url(1.jpg);
+    background-image: url(assets/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     animation: change 10s infinite ;
@@ -55,16 +55,16 @@
 @keyframes change {
    
     0%{
-        background-image: url(1.jpg);
+        background-image: url(assets/1.jpg);
       
     }
     50%{
-        background-image: url(2.jpg);
+        background-image: url(assets/2.jpg);
         animation-delay: 5s;
       
     }
     90%{
-        background-image: url(3.jpg);
+        background-image: url(assets/3.jpg);
 
     }
 }
@@ -84,6 +84,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .migratingbox button{
+    cursor: pointer;
     width: 190px;
     height: 70px;
     border-radius: 2rem;
@@ -183,7 +184,7 @@
     width: 400px;
     border-radius: 100%;
     overflow: hidden;
-    animation: rotate2 1.5s linear;
+    animation: rotate2 2.0s linear;
    
  
 }
@@ -208,7 +209,7 @@
     width: 400px;
     border-radius: 100%;
     overflow: hidden;
-    animation: rotate3 2.0s linear;
+    animation: rotate3 2.5s linear;
    
  
 }
@@ -247,7 +248,7 @@
    
     height: 60%;
     width: 100%;
-    background-image: url(bottom2-img.jpg);
+    background-image: url(assets/3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -258,14 +259,14 @@
     background-position: center;
     height: 60%;
     width: 100%;
-    background-image: url(2.jpg);
+    background-image: url(assets/2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .c5{
     height: 60%;
     width: 100%;
-    background-image: url(middle-img3.jpg);
+    background-image: url(assets/middle-img3.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -276,7 +277,7 @@
 
 
 .section3{
-    background-image: url(1.jpg);
+    background-image: url(assets/1.jpg);
     height: 90vh;
     width: 100%;
     position: sticky;
@@ -324,6 +325,7 @@
     gap: 30px;
 }
 .section4texts button{
+    cursor: pointer;
     width: 190px;
     height: 70px;
     border-radius: 2rem;
@@ -367,6 +369,7 @@
     width: 80px;
 }
 .container1 button{
+    cursor: pointer;
     width: 190px;
     height: 70px;
     border-radius: 2rem;
@@ -395,6 +398,7 @@
     width: 80px;
 }
 .container2 button{
+    cursor: pointer;
     width: 190px;
     height: 70px;
     border-radius: 2rem;
@@ -420,6 +424,7 @@
     width: 80px;
 }
 .container3 button{
+    cursor: pointer;
     width: 190px;
     height: 70px;
     border-radius: 2rem;
@@ -473,6 +478,7 @@
 }
 
 .checkandbutton{
+    cursor: pointer;
     display: flex;
     gap: 60px;
     align-items: center;
@@ -508,6 +514,7 @@
     font-size: 8px;
 }
 .submitbutton{
+    cursor: pointer;
     width: 190px;
     height: 70px;
     border-radius: 3rem;
@@ -516,6 +523,7 @@
     background-color: rgb(147,205,1);
 }
 .instructor{
+    z-index: -2;
     margin-top: 4rem;
     animation: moveup 2s linear;
     
@@ -544,8 +552,8 @@
     color: white;
     gap: 80px;
     padding-right: 3rem;
-    
-   
+    z-index: 2;
+    position: relative;
 }
 .get p{
     font-size: 20px;
